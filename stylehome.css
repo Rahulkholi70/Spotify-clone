@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&family=Work+Sans:wght@100..900&display=swap');
+ 
+/* "Signika" */
+body{
+    /* background : black; */
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight:900;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    /* padding: 0 5px;  */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 80px;
+    background: #000;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   justify-content: space-around;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   /* background-image: url('songphoto/image.png'); */
+}
+ 
+
+.bottomBar{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.songPoster {
+    display: flex;
+    align-items: center;         
+    justify-content: center;   
+}
+    #poster {
+    height: 70vh;
+    object-fit: cover;  
+    border-radius: 10px;  
+}
+.icons{
+    margin-top: 14px; 
+    
+}
+.icons i{
+    cursor: pointer;
+    padding: 7px;
+}
+
+#Prog-bar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songCard{
+    height: 50px;
+    display: flex;
+    background-color: rgb(194, 193, 193); 
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songCard img{
+    width: 43px;
+    /* height: 10px; */
+    margin: 0 23px;
+    border-radius: 34px;
+}
+#poster {
+    width: 100%;
+    max-height: 60vh;
+    object-fit: contain;
+    border-radius: 12px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+     
+}
+/*   */
